@@ -16,7 +16,10 @@
   </head>
   <body>
     <!-- your code here -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body"
+      data-bs-theme="dark"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" aria-current="page" href="#"
           >Nicklaus Meadows</a
@@ -41,14 +44,17 @@
               <a class="nav-link" href="#">Interests</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Interests</a>
+              <a class="nav-link" href="#">Career Goals</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div id="carouselExampleCaptions" class="carousel slide mx-5 my-5">
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide mx-5 my-5 bg-secondary"
+    >
       <div class="carousel-indicators">
         <button
           type="button"
@@ -75,7 +81,7 @@
         <div class="carousel-item active">
           <img
             src="https://placehold.co/600x400"
-            class="d-block w-100"
+            class="rounded mx-auto d-block img-fluid"
             alt="..."
           />
           <div class="carousel-caption d-none d-md-block">
@@ -86,7 +92,7 @@
         <div class="carousel-item">
           <img
             src="https://placehold.co/600x400"
-            class="d-block w-100"
+            class="rounded mx-auto d-block img-fluid"
             alt="..."
           />
           <div class="carousel-caption d-none d-md-block">
@@ -97,7 +103,7 @@
         <div class="carousel-item">
           <img
             src="https://placehold.co/600x400"
-            class="d-block w-100"
+            class="rounded mx-auto d-block img-fluid"
             alt="..."
           />
           <div class="carousel-caption d-none d-md-block">
@@ -128,7 +134,7 @@
 
     <div class="container text-center my-5">
       <div class="row row-cols-2">
-        <div class="col">Hobbies</div>
+        <div class="col"><strong>Hobbies</strong></div>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis,
           molestiae reiciendis officia quae porro a quibusdam fugiat consequatur
@@ -136,14 +142,14 @@
           voluptatem. Possimus, est aspernatur?
         </p>
 
-        <div class="col">Interests</div>
+        <div class="col"><strong>Interests</strong></div>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit odit
           nobis sequi odio, officia inventore! Necessitatibus, ipsam atque.
           Neque omnis aperiam facilis laborum autem ex optio inventore aut
           consectetur tempore.
         </p>
-        <div class="col">Career Goals</div>
+        <div class="col"><strong>Career Goals</strong></div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quasi
           quisquam iste odit tempora doloribus dolore quod veniam quos, officia
@@ -240,6 +246,55 @@
             overriding our default variables. It's also worth noting that just
             about any HTML can go within the <code>.accordion-body</code>,
             though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 my-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
           </div>
         </div>
       </div>
