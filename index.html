@@ -45,13 +45,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Hobbies</a>
+              <a class="nav-link" href="/index.html#hobbies">Hobbies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Interests</a>
+              <a class="nav-link" href="/index.html#interests">Interests</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Career Goals</a>
+              <a class="nav-link" href="/index.html#career-goals"
+                >Career Goals</a
+              >
             </li>
           </ul>
         </div>
@@ -341,7 +343,7 @@
             alt="photo-of-ice-fishing-hobbies"
           />
           <div class="card-body">
-            <h5 class="card-title">Hobbies</h5>
+            <h5 class="card-title" id="hobbies">Hobbies</h5>
             <p class="card-text">
               Fishing is another hobby of mine. I enjoy it because it gives me
               an excuse to get out of the house and back to nature. The dogs
@@ -363,7 +365,7 @@
             alt="..."
           />
           <div class="card-body">
-            <h5 class="card-title">Interests</h5>
+            <h5 class="card-title" id="interests">Interests</h5>
             <p class="card-text">
               Another interest of my especially this time of year is napping.
               The weather is turning gross, it is dark at like 5 pm and life,
@@ -384,7 +386,7 @@
             alt="coding-career-goals-image"
           />
           <div class="card-body">
-            <h5 class="card-title">Career Goals</h5>
+            <h5 class="card-title" id="career-goals">Career Goals</h5>
             <p class="card-text">
               I have really enjoyed all that I have learned in this class and I
               hope to be able to continue with my studies and become a better
@@ -397,6 +399,62 @@
         </div>
       </div>
     </div>
+
+    <!-- Button trigger modal -->
+    <div class="d-flex justify-content-center my-4">
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        Launch Message
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Thanks for Stopping By!
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Please
+            <a
+              href="mailto:nmeadows.167@gmail.com"
+              aria-label="email link to nick's gmail"
+              >reach out</a
+            >
+            if you have any questions or want to play video games.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer class="text-center text-lg-start bg-dark">
       <div class="text-center p-3" style="color: white">
         &copy; 2024 Copyright:
